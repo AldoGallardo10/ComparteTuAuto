@@ -1,4 +1,4 @@
-package cl.aldogallardo.compartetuauto.view.car;
+package cl.aldogallardo.compartetuauto.view.fragment;
 
 
 import android.os.Bundle;

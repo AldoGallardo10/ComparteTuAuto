@@ -10,10 +10,10 @@ import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
 
 import cl.aldogallardo.compartetuauto.R;
-import cl.aldogallardo.compartetuauto.view.car.RouteFragment;
-import cl.aldogallardo.compartetuauto.view.car.SearchFragment;
-import cl.aldogallardo.compartetuauto.view.car.ShareFragment;
-import cl.aldogallardo.compartetuauto.view.car.TravelFragment;
+import cl.aldogallardo.compartetuauto.view.fragment.RouteFragment;
+import cl.aldogallardo.compartetuauto.view.fragment.SearchFragment;
+import cl.aldogallardo.compartetuauto.view.fragment.ShareFragment;
+import cl.aldogallardo.compartetuauto.view.fragment.TravelFragment;
 
 public class MainActivity extends AppCompatActivity {
 

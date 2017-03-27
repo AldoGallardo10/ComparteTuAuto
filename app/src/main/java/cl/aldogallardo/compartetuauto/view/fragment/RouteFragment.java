@@ -1,4 +1,5 @@
-package cl.aldogallardo.compartetuauto.view.car;
+package cl.aldogallardo.compartetuauto.view.fragment;
+
 
 
 import android.os.Bundle;
@@ -11,19 +12,20 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import cl.aldogallardo.compartetuauto.R;
-import cl.aldogallardo.compartetuauto.adapter.CarAdapter;
+import cl.aldogallardo.compartetuauto.adapter.MyCarAdapter;
+import cl.aldogallardo.compartetuauto.data.CurrentUser;
+
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class SearchFragment extends Fragment {
+public class RouteFragment extends Fragment  {
 
-
-    private CarAdapter carAdapter;
+    private MyCarAdapter myCarAdapter;
     private RecyclerView recyclerView;
 
 
-    public SearchFragment() {
+    public RouteFragment() {
         // Required empty public constructor
     }
 
@@ -32,21 +34,22 @@ public class SearchFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_search, container, false);
+        return inflater.inflate(R.layout.fragment_route, container, false);
     }
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        CurrentUser currentUser = new CurrentUser();
+        String id = currentUser.userId();
 
-        recyclerView = (RecyclerView) view.findViewById(R.id.CarRv);
+        recyclerView = (RecyclerView) view.findViewById(R.id.MyCarRv);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setHasFixedSize(true);
-        carAdapter = new CarAdapter();
-        recyclerView.setAdapter(carAdapter);
+        myCarAdapter = new MyCarAdapter(id);
+        recyclerView.setAdapter(myCarAdapter);
+
 
     }
-
-
 }

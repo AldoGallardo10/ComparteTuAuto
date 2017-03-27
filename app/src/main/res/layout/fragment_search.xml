@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/fragmentSearch"
-    tools:context="cl.aldogallardo.compartetuauto.view.car.SearchFragment">
+    tools:context="cl.aldogallardo.compartetuauto.view.fragment.SearchFragment">
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"

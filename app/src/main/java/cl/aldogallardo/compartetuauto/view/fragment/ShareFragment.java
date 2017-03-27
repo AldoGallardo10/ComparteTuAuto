@@ -1,4 +1,4 @@
-package cl.aldogallardo.compartetuauto.view.car;
+package cl.aldogallardo.compartetuauto.view.fragment;
 
 
 import android.os.Bundle;
@@ -9,12 +9,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.sdsmdg.tastytoast.TastyToast;
 
 import cl.aldogallardo.compartetuauto.R;
+import cl.aldogallardo.compartetuauto.view.car.SendCar;
+import cl.aldogallardo.compartetuauto.view.car.Validate;
 
 /**
  * A simple {@link Fragment} subclass.
