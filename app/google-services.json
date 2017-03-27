@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "975201692531",
+    "firebase_url": "https://compartetuauto-5b7e3.firebaseio.com",
+    "project_id": "compartetuauto-5b7e3",
+    "storage_bucket": "compartetuauto-5b7e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975201692531:android:02bc95d215113211",
+        "android_client_info": {
+          "package_name": "cl.aldogallardo.compartetuauto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975201692531-4sdu2fqoqgqugbvv4bgm399btg7rdri8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.aldogallardo.compartetuauto",
+            "certificate_hash": "1c53df6f69588a12f4c3d3a8f6eab2c7150cd748"
+          }
+        },
+        {
+          "client_id": "975201692531-864df8vb6qu15uif512qo37km9v64ant.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaywYoEVju_zikGyjEhqlTSM_uLGoTT7k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975201692531-864df8vb6qu15uif512qo37km9v64ant.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
